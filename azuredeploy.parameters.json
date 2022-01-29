@@ -1,0 +1,33 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "virtualNetworkName": {
+      "value": "#{virtual-networkName}#"
+    },
+    "accountName": {
+      "value": "#{accountName}#"
+    },
+    "publicNetworkAccess": {
+      "value": "Enabled"
+    },
+    "privateEndpointName": {
+      "value": "#{private-endpointName}#"
+    },
+    "location": {
+      "value": "#{location}#"
+    },
+    "containers": {
+      "value": "#{containerName}#"
+   },
+    "databaseName": {
+      "value": "#{databaseName}#"
+    },
+    "subscriptionId": {
+      "value": "#{subscriptionId}#"
+    },
+    "resourceGroup": {
+      "value": "#{resourceGroup}#"
+    }
+  }
+}
